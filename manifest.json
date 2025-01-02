@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Gemini Summarizer",
+    "version": "1.0",
+    "description": "Summarizes webpage content using the Gemini API.",
+    "permissions": [
+      "activeTab", 
+      "storage"
+    ],
+    "action": {
+      "default_popup": "popup.html" 
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
